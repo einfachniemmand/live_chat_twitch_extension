@@ -1,5 +1,5 @@
 <?php
-$apiKey = 'AIzaSyCFa2n4019kKLZOplS3auAusJ2vYE1121w';
+$apiKey = 'PASTE YOUR KEY HERE';
 $channelId = 'UCsM82TfSVs6YDQWNhDz5gYA';  // Channel ID
 
 // URL, um den aktuellen Livestream des Kanals abzurufen
