@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension settings</title>
+    <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Poppins, Arial, sans-serif;
+            color: #fff;
+            overflow: hidden;
+            background:black;
+            user-select:none;
+        }
+        #content {
+            font-size:80px;
+            max-width: fit-content;
+            margin:auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer_loading_bar" style="position:fixed;z-index:10;bottom:50%;left:10%;width:80%;background: grey;height:10px;border-radius:2px;transition:500ms">
+        <div id="loading_bar" style="height:6px;width:2%;background:greenyellow;border-radius:2px;margin:2px;transition:3s;"></div>
+    </div>
+    <div id="content" style="transition:200ms;opacity:0;">
+        All done!
+        <span style="color: blue;font-size:25px"><br>Discord: @brown_concrete</span>
+    </div>
+    <span style="position:fixed;bottom:0;left:0;color:rgba(255,255,255,0.2)">@einfachniemmand</span>
+    <script src="script-config.js"></script>
+</body>
+</html>
